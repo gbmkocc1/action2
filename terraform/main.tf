@@ -1,6 +1,6 @@
 # eks-infra/main.tf
 provider "aws" {
-  region = eu-north-1
+  region = "eu-north-1"
 }
 
 data "aws_availability_zones" "available" {}
