@@ -4,11 +4,11 @@ variable "region" {
 }
 
 variable "ec2_key_name" {
-  description = "Name of the EC2 Key Pair"
+  default = "github-keypair"
   type        = string
 }
 
 variable "my_ip" {
-  description = "Your IP address for SSH"
+  default = "188.31.175.209/32"
   type        = string
 }
