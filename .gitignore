@@ -1,0 +1,27 @@
+# .gitignore
+
+# Ignore Terraform working dir and state
+.terraform/
+.tfstate
+.tfstate.backup
+.tfvars
+# Ignore CLI-generated files
+.terraform.lock.hcl
+
+# Ignore crash logs and local vars
+crash.log
+.tfvars
+.tfvars.json
+
+# Ignore sensitive output
+.pem
+.key
+.crt
+
+# Ignore backups and IDE junk
+.bak
+.swp
+.DS_Store
+.idea/
+.vscod/
+
