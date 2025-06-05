@@ -1,3 +1,11 @@
+name: Terraform CI
+
+on:
+  push:
+  workflow_dispatch:
+    branches:
+      - main
+
 jobs:
   terraform:
     runs-on: ubuntu-latest
